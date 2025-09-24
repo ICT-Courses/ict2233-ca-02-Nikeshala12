@@ -1,10 +1,10 @@
-// src/pages/projects.jsx
+
 import React from 'react';
 import Header from '../components/header';
 
 import ProjectCard from '../components/projectcard';
-// projects images import කරන්න
-import Footwear from '../assets/S&Sfootwear.png'; // මේවා ඔයාගේ image files වලට අනුව වෙනස් කරන්න
+
+import Footwear from '../assets/S&Sfootwear.png'; 
 import StudyPlanner from '../assets/studyplanner.png';
 import BookShelf from '../assets/bookshelf.png';
 
@@ -34,7 +34,7 @@ function ProjectsPage() {
       githubLink: "https://github.com/ICT-Courses/ict2233-ca-01-Nikeshala12.git",
       image: BookShelf
     },
-    // ඔබට අවශ්‍ය පරිදි තවත් projects මෙහි එකතු කරන්න
+    
   ];
 
   return (
@@ -43,7 +43,7 @@ function ProjectsPage() {
       <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors min-h-screen pt-16">
         <section className="container mx-auto px-6 py-12">
           <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
-          <div className="grid grid-cols-1 gap-8"> {/* Single column grid එකක් විදිහට වෙනස් කළා */}
+          <div className="grid grid-cols-1 gap-8"> 
             {projects.map((project, index) => (
               <ProjectCard 
                 key={index} 
