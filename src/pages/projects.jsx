@@ -4,7 +4,7 @@ import Header from '../components/header';
 
 import ProjectCard from '../components/projectcard';
 
-import Footwear from '../assets/S&Sfootwear.png'; 
+import Footwear from '../assets/S_Sfootwear.png'; 
 import StudyPlanner from '../assets/studyplanner.png';
 import BookShelf from '../assets/bookshelf.png';
 
